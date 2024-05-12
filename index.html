@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter Button</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .head h2 {
+            font-size: 53px;
+            font-family: cursive;
+            color: crimson;
+        }
+
+        .main-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            gap: 8px;
+        }
+
+        .main-btn button {
+            padding: 13px 13px;
+            width: unset;
+            margin: 78px 0px;
+            font-size: 19px;
+            font-family: fangsong;
+            font-weight: 600;
+            background-color: #000000;
+            border: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <h2 id="h2">Word Game</h2>
+    </div>
+    <div class="main-btn">
+        <button onclick="alphabets(a=['Apple' , 'Aeroplane' ,'Ant','Astronauat'])">A</button>
+        <button onclick="alphabets(b=['Ball' , 'Bat' ,'Bottle','Baseball'])">B</button>
+        <button onclick="alphabets(c=['Cat' , 'Crab' ,'Cake','Candle'])">C</button>
+        <button onclick="alphabets(d=['Dance' , 'Drain' ,'Dates','Dog'])">D</button>
+        <button onclick="alphabets(e=['Elephant' , 'Eat' ,'Etron GT','Egg'])">E</button>
+        <button onclick="alphabets(f=['Frog' , 'Fries' ,'Food','Fast'])">F</button>
+        <button onclick="alphabets(g=['Garbage' , 'Green' ,'Groove','Gate'])">G</button>
+        <button onclick="alphabets(h=['Hairs' , 'Hat' ,'Horse','Hammer'])">H</button>
+        <button onclick="alphabets(i=['Ink' , 'Iron' ,'Ice','Igloo'])">I</button>
+        <button onclick="alphabets(j=['Jug' , 'Jam' ,'Jaguar','Juice'])">J</button>
+        <button onclick="alphabets(k=['Kite' , 'Knife' ,'Kid','Kangroo'])">K</button>
+        <button onclick="alphabets(l=['Lamp' , 'Ladder' ,'Lion','Lizard'])">L</button>
+        <button onclick="alphabets(m=['Mango' , 'Mutton' ,'Mop','Magzine'])">M</button>
+        <button onclick="alphabets(n=['Nest' , 'Nuts' ,'Nip','Night'])">N</button>
+        <button onclick="alphabets(o=['Orange' , 'Oreo' ,'Oscillation','Out'])">O</button>
+        <button onclick="alphabets(p=['Parrot' , 'Pain' ,'Pencil','Pot'])">P</button>
+        <button onclick="alphabets(q=['Query' , 'Quail' ,'Queen','Quiz'])">Q</button>
+        <button onclick="alphabets(r=['Random' , 'Records' ,'Route','Return'])">R</button>
+        <button onclick="alphabets(s=['Snake' , 'Slow' ,'Squeeze','Squad'])">S</button>
+        <button onclick="alphabets(t=['Tang' , 'Turtle' ,'Toss','Tools'])">T</button>
+        <button onclick="alphabets(u=['Uzbekistan' , 'Umberella' ,'Uranium','U-turn'])">U</button>
+        <button onclick="alphabets(v=['Van' , 'Vancouver WA' ,'Vital','Viper'])">V</button>
+        <button onclick="alphabets(w=['Witness' , 'Water' ,'Washing Powder','Wale'])">W</button>
+        <button onclick="alphabets(x=['Xoxo' , 'Xander' ,'X-Space','Xero'])">X</button>
+        <button onclick="alphabets(y=['Yoyo' , 'Yemen' ,'Yock','Yarn'])">Y</button>
+        <button onclick="alphabets(z=['Zip' , 'Zoo' ,'Zig Zag','Zebra'])">Z</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
